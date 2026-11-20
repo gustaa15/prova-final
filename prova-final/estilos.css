@@ -1,0 +1,304 @@
+/* Fundo geral do site */
+body {
+    background-color: #c4e0fb;
+    font-family: Arial, sans-serif;
+}
+
+/* Parte azul do topo e do rodape */
+.fundo-cinza {
+    background-color: #0f2b53;
+}
+
+/* Nome FORTNITE no menu */
+.topo {
+    padding: 20px 5px;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.topo-fluido {
+    border-top: 1px solid #4e4e4e;
+}
+
+/* Menu: o display flex ja estava no seu codigo original */
+.menu {
+    display: flex;
+    gap: 4px;
+    padding-top: 18px;
+}
+
+.menu li {
+    flex-grow: 1;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 3px;
+    display: block;
+    font-size: 11px;
+}
+
+.menu li a:hover {
+    background-color: #2673ae;
+    color: white;
+}
+
+/* Linha azul que mostra a pagina escolhida */
+.menu li a.ativo {
+    border-bottom: 3px solid #22bdff;
+}
+
+/* Botao amarelo no menu */
+.menu li a.entrar {
+    background-color: #ffcc4d;
+    color: #101827;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Parte central: o tamanho de 800px ja vem do grids.css */
+.container-principal {
+    background-color: #123a75;
+    padding: 25px 20px;
+    color: white;
+}
+
+/* Alinhamento vertical nas linhas do grid */
+.row {
+    align-items: center;
+}
+
+.letras-titulo {
+    font-size: 70px;
+    color: white;
+}
+
+.letras-subtitulo {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.diferente {
+    color: white;
+    font-size: 17px;
+}
+
+/* Botao que ja existia no codigo original */
+.botao {
+    background-color: #ffcc4d;
+    color: #101827;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 9px 18px;
+    border-radius: 12px;
+}
+
+.imagem-vbucks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagem-vbucks img {
+    width: 100%;
+    max-width: 350px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* As tres caixas da parte de baixo */
+.cartao {
+    background-color: #20518d;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 12px 5px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao-texto {
+    flex: 1;
+}
+
+.cartao h3 {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.cartao p {
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+/* Rodape original, apenas centralizando o texto */
+.rodape {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* Rodape nas duas paginas: logo a esquerda e links em uma linha */
+.rodape {
+    display: flex;
+    align-items: center;
+}
+
+.rodape-esquerda {
+    width: 20%;
+    text-align: left;
+}
+
+.rodape-esquerda h3 {
+    margin: 0;
+    font-size: 21px;
+}
+
+.rodape-centro {
+    width: 80%;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    left: -50px;
+}
+
+.rodape-centro p {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Pagina 2 - Sobre os V-Bucks */
+.sobre-texto {
+    padding: 16px 10px;
+}
+
+.sobre-titulo {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.sobre-texto p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 330px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.sobre-linha {
+    margin-top: 22px;
+}
+
+.sobre-caixa {
+    background-color: #20518d;
+    border-radius: 10px;
+    padding: 18px 14px;
+    margin: 5px;
+    height: 185px;
+}
+
+.sobre-caixa h2 {
+    font-size: 19px;
+    margin-bottom: 14px;
+}
+
+.sobre-caixa p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.lista-vbucks {
+    list-style: none;
+}
+
+.lista-seguranca{
+    list-style: none;
+}
+
+.checklist-seguranca label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.checklist-seguranca input {
+    margin-right: 7px;
+}
+
+.lista-vbucks li {
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.item-loja {
+    background-color: #153a74;
+    border-radius: 8px;
+    padding: 12px 3px 6px;
+    margin: 3px;
+    text-align: center;
+    height: 106px;
+}
+
+.icone-item {
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+
+.item-loja p {
+    font-size: 11px;
+}
+
+/* Icones SVG: sao arquivos de imagem comuns */
+.icone-item {
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.icone-cartao {
+    width: 45px;
+    height: 45px;
+}
+
+.imagem-escudo {
+    width: 170px;
+    height: 185px;
+}
+
+.pergunta {
+    background-color: #20518d;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin: 7px 5px;
+}
+
+.pergunta summary {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.20);
+}
+
+.pergunta p {
+    font-size: 14px;
+    color: #dbe8ff;
+    margin-top: 10px;
+    line-height: 1.4;
+}

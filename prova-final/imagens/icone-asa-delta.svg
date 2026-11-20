@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Asa-delta simples: triangulos e linhas -->
+  <polygon points="7,37 40,15 73,37 40,54" fill="#57c9ff" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+  <polygon points="7,37 40,15 40,54" fill="#1377d1"/>
+  <line x1="40" y1="54" x2="40" y2="69" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="27" y1="49" x2="40" y2="69" stroke="white" stroke-width="2"/>
+  <line x1="53" y1="49" x2="40" y2="69" stroke="white" stroke-width="2"/>
+</svg>
