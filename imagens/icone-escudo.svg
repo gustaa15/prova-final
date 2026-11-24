@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="190" viewBox="0 0 180 190">
+  <!-- Desenho de escudo com formas simples -->
+  <polygon points="90,8 162,35 158,96 135,145 90,181 45,145 22,96 18,35" fill="#d8e7fb"/>
+  <polygon points="90,25 145,47 142,95 123,135 90,162 57,135 38,95 35,47" fill="#247bd6"/>
+  <polygon points="90,42 130,57 127,94 114,123 90,145 66,123 53,94 50,57" fill="#1354b9"/>
+  <!-- Cadeado: arco, corpo e fechadura -->
+  <rect x="69" y="81" width="42" height="51" rx="7" fill="#f6faff"/>
+  <rect x="77" y="64" width="26" height="29" rx="13" fill="none" stroke="#f6faff" stroke-width="9"/>
+  <circle cx="90" cy="105" r="5" fill="#1354b9"/>
+  <rect x="87" y="106" width="6" height="13" fill="#1354b9"/>
+</svg>

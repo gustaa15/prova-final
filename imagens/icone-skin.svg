@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Camiseta / skin: formada apenas por um poligono -->
+  <polygon points="26,13 34,17 46,17 54,13 70,29 60,40 55,35 55,67 25,67 25,35 20,40 10,29" fill="#57c9ff" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="32" y1="32" x2="48" y2="32" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="40" cy="49" r="8" fill="#1d5692"/>
+  <polygon points="40,43 42,47 47,48 43,52 44,57 40,54 36,57 37,52 33,48 38,47" fill="#ffcf50"/>
+</svg>

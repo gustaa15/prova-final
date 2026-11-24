@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <line x1="5" y1="12" x2="13" y2="12" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <line x1="13" y1="12" x2="19" y2="41" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="16,19 54,19 48,37 20,37" fill="#23bfff" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="25" cy="48" r="5" fill="#ffcc4d"/>
+  <circle cx="44" cy="48" r="5" fill="#ffcc4d"/>
+</svg>

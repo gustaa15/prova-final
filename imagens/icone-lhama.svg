@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="220" viewBox="0 0 180 220">
+  <!-- Lhama estilizada com figuras geometricas -->
+  <polygon points="65,21 76,5 91,61 72,68" fill="#b75bdb"/>
+  <polygon points="112,55 126,8 143,25 141,67" fill="#a34fcf"/>
+  <polygon points="64,75 104,50 143,67 153,113 122,143 59,138 45,106" fill="#c069e7"/>
+  <polygon points="45,101 16,108 16,128 49,137 68,121" fill="#aa56d4"/>
+  <polygon points="70,137 127,132 152,190 143,208 62,208 51,187" fill="#8755cf"/>
+  <polygon points="58,166 149,163 150,184 62,189" fill="#26bfeb"/>
+  <polygon points="60,190 149,185 141,207 64,208" fill="#33aedf"/>
+  <circle cx="111" cy="100" r="23" fill="#f6f6fd"/>
+  <circle cx="115" cy="101" r="10" fill="#24235b"/>
+  <circle cx="119" cy="96" r="4" fill="white"/>
+  <rect x="73" y="205" width="18" height="14" fill="#55439c"/>
+  <rect x="121" y="205" width="18" height="14" fill="#55439c"/>
+  <rect x="55" y="126" width="22" height="8" rx="3" fill="#613da2"/>
+</svg>

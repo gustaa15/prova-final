@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="175" viewBox="0 0 240 175">
+  <!-- Balao de conversa feito com formas basicas -->
+  <ellipse cx="102" cy="74" rx="78" ry="61" fill="#e6f4ff"/>
+  <polygon points="54,120 41,152 90,130" fill="#e6f4ff"/>
+  <text x="102" y="116" text-anchor="middle" font-family="Arial" font-size="103" font-weight="bold" fill="#153a74">?</text>
+  <line x1="197" y1="52" x2="220" y2="40" stroke="#ffcc4d" stroke-width="6" stroke-linecap="round"/>
+  <line x1="201" y1="76" x2="231" y2="76" stroke="#ffcc4d" stroke-width="6" stroke-linecap="round"/>
+  <line x1="196" y1="98" x2="220" y2="109" stroke="#ffcc4d" stroke-width="6" stroke-linecap="round"/>
+</svg>
